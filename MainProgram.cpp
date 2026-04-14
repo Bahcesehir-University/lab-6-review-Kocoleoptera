@@ -106,7 +106,7 @@ public:
     // If out of range, keep current GPA.
     void setGpa(double g) {
         // YOUR CODE HERE
-        if (gpa <= 0.0 && gpa >= 4.0){
+        if (gpa >= 0.0 && gpa <= 4.0){
             gpa = g;
         }
     }
